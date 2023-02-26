@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #080001;
 }
 h2{
     position: relative;
@@ -39,7 +40,8 @@ h3{
     display: flex;
     justify-content: space-around;
     background: #1B244A;
-
+    border-radius: 25px;
+    border: 5px solid #F94F6D;
     height: 400px;
     margin: 40px
     
@@ -54,7 +56,7 @@ h3{
     top: 5px;
 
     background: #080001;
-    border-radius: 5px;
+    border-radius: 25px;
     }
 .scoreboard2{
     position: relative;
@@ -64,10 +66,10 @@ h3{
     top: 5px;
 
     background: #080001;
-    border-radius: 5px;
+    border-radius: 25px;
     }
 button{
-    color:#9AABD8;
+    color:#95e0f7;
     background: #1B244A;
     box-sizing: border-box;
     position: relative;
@@ -76,5 +78,5 @@ button{
     left: 5px;
     top: 20px;
     border: 2px solid #9AABD8;
-    border-radius: 5px;
+    border-radius: 40%;
 }
