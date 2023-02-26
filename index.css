@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+h2{
+    position: relative;
+    width: 117px;
+    height: 120px;
+    left: 20px;
+    top: 1px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+
+}
+h3{
+    position: relative;
+    width: 149px;
+    height: 36px;
+    left: 5px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+
+    height: 400px;
+    margin: 40px
+    
+
+}
+
+.scoreboard1{
+    position: relative;
+    width: 155px;
+    height: 120px;
+    left: px;
+    top: 5px;
+
+    background: #080001;
+    border-radius: 5px;
+    }
+.scoreboard2{
+    position: relative;
+    width: 155px;
+    height: 120px;
+    left: px;
+    top: 5px;
+
+    background: #080001;
+    border-radius: 5px;
+    }
+button{
+    color:#9AABD8;
+    background: #1B244A;
+    box-sizing: border-box;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    left: 5px;
+    top: 20px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
